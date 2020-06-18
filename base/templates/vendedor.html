@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Django 1 - Vendedor</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Vendedor</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sobrenome</th>
+                <th>E-mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="{% url 'index' %}">{{ vendedor.nome }}</a></td>
+                <td>{{ vendedor.sobrenome }}</td>
+                <td>{{ vendedor.email }}</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

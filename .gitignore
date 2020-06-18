@@ -1,0 +1,6 @@
+__pycache__
+*.*-
+*.pyc 
+.idea
+
+#Arquivos que o git irá ignorar quando for publicada a aplicação
